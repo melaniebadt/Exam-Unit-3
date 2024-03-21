@@ -33,6 +33,8 @@ public class FunctionsArePopping
     }
     public void RunTests()
     {
+        Console.WriteLine("🌼Functions are a popping🌼");
+
         TestDouble(4, Square(2), "Square of 2");
         TestDouble(127, InchToMM(5), "5 Inches converted to mm ");
         TestDouble(10, Root(100), "Root of 100");

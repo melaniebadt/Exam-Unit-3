@@ -1,5 +1,6 @@
 ﻿using System;
 using Task1;
+using Task2;
 
 public class Programm
 {
@@ -7,6 +8,9 @@ public class Programm
     {
         FunctionsArePopping testFunctions = new FunctionsArePopping();
         testFunctions.RunTests();
+
+        FlattenThoseNumbers flattenedArray = new FlattenThoseNumbers();
+        flattenedArray.Execution();
     }
 }
 
