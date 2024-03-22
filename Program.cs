@@ -1,6 +1,7 @@
 ﻿using System;
 using Task1;
 using Task2;
+using Task3;
 
 public class Programm
 {
@@ -11,6 +12,9 @@ public class Programm
 
         FlattenThoseNumbers flattenedArray = new FlattenThoseNumbers();
         flattenedArray.Execution();
+
+        LeftRightUpDown calculation = new LeftRightUpDown();
+        calculation.Execution();
     }
 }
 
