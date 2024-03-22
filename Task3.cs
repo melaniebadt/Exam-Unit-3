@@ -1,6 +1,4 @@
-using System;
 using System.Text.Json;
-
 namespace Task3
 {
     public class LeftRightUpDown

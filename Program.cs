@@ -1,7 +1,7 @@
-﻿using System;
-using Task1;
+﻿using Task1;
 using Task2;
 using Task3;
+using Task4;
 
 public class Programm
 {
@@ -15,6 +15,9 @@ public class Programm
 
         LeftRightUpDown calculation = new LeftRightUpDown();
         calculation.Execution();
+
+        MyBooksTheyAreAMess sorting = new MyBooksTheyAreAMess();
+        sorting.Execution();
     }
 }
 
