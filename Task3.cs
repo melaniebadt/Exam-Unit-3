@@ -17,9 +17,7 @@ namespace Task3
 
             int nodes = NumberOfNodes(jsonDocument.RootElement);
             Console.WriteLine("Number of Nodes: " + nodes);
-
         }
-
         public int CalculateSum(JsonElement jsonElement)
         {
             int sum = 0;
@@ -44,7 +42,6 @@ namespace Task3
                 }
             }
         }
-
         public int FindDeepestLevel(JsonElement jsonElement)
         {
             return FindDeepestLevelHelper(jsonElement, 1);
@@ -67,7 +64,6 @@ namespace Task3
 
             return maxLevel;
         }
-
         public int NumberOfNodes(JsonElement jsonElement)
         {
             int sum = 0;
@@ -89,6 +85,5 @@ namespace Task3
                 }
             }
         }
-
     }
 }
