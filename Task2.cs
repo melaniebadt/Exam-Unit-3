@@ -5,15 +5,12 @@ public class FlattenThoseNumbers
 {
     public void Execution()
     {
-
         string jsonString = File.ReadAllText("arrays.json");
         JsonElement jsonElement = JsonSerializer.Deserialize<JsonElement>(jsonString);
         List<int> flattenedArray = new List<int>();
         FlattenDynamicObject(jsonElement, flattenedArray);
         Console.WriteLine("🌱Flatten those Numbers🌱");
         Console.WriteLine("[{0}]", string.Join(",", flattenedArray));
-
-
     }
     private static void FlattenDynamicObject(JsonElement jsonObject, List<int> flattenedList)
     {
