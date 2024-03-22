@@ -54,6 +54,7 @@ public class FunctionsArePopping
             Console.WriteLine($"🔴 {description}, expected {expected}, received {actual}");
         }
     }
+
     void TestString(string expected, string actual, string description = "Test")
     {
         if (expected == actual)
@@ -65,5 +66,4 @@ public class FunctionsArePopping
             Console.WriteLine($"🔴 {description}, expected {expected}, received {actual}");
         }
     }
-
 }
